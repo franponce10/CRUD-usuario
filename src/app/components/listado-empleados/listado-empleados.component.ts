@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Persona } from 'src/app/model/persona';
 
 @Component({
   selector: 'app-listado-empleados',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class ListadoEmpleadosComponent {
 
+  listaPersonas: Array<Persona> = [];
+  
 }
