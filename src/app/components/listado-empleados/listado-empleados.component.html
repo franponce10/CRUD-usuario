@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -12,6 +12,7 @@
             </thead>
             <tbody>
                 <tr *ngFor="let persona of listaPersonas">
+                    <td>{{persona.id}}</td>
                     <td>{{persona.nombre}}</td>
                     <td>{{persona.apellidos}}</td>
                     <td>{{persona.telefono}}</td>

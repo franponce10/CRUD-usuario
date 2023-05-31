@@ -8,6 +8,8 @@ import { Persona } from 'src/app/model/persona';
 })
 export class ListadoEmpleadosComponent {
 
-  listaPersonas: Array<Persona> = [];
+  p1: Persona = new Persona(0,"a","aa","000000000","Hombre");
+  p2: Persona = new Persona(1,"b","bb","000000000","Mujer");
+  listaPersonas: Array<Persona> = [this.p1,this.p2];
   
 }
